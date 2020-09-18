@@ -16,6 +16,6 @@ func init()  {
 }
 
 func (qg *QG)Show_info()  {
-	fmt.printIn("good")
+	fmt.Println("good")
 	fmt.Println("info: name",qg.Name," ,age:  ",qg.Age)
 }
